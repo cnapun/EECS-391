@@ -1,0 +1,47 @@
+setState b21 345 678
+solve A-star h1
+solve A-star h2
+maxNodes 10
+setState b12 345 678
+randomizeState 1000
+solve A-star h1
+solve A-star h2
+solve beam 10
+maxNodes 200000
+solve A-star h1
+solve A-star h2
+solve beam 100
+randomizeState 1000
+solve A-star h1
+solve A-star h2
+solve beam 100
+randomizeState 1000
+solve A-star h1
+solve A-star h2
+solve beam 100
+randomizeState 1000
+solve A-star h1
+solve A-star h2
+solve beam 100
+setState b12 345 678
+randomizeState 4
+solve A-star h2
+move down
+move left
+move up
+move up
+printState
+randomizeState 4
+solve A-star h1
+move left
+move down
+move left
+move up
+printState
+randomizeState 4
+solve beam 20
+move left
+move left
+move up
+move up
+printState
